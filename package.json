@@ -8,11 +8,11 @@
     "dev": "nodemon app.js",
     "debug": "nodemon --inspect app.js"
   },
-
   "keywords": [],
   "author": "Slawomir Koldziejczyk",
   "license": "ISC",
   "dependencies": {
+    "ejs": "3.1.6",
     "express": "4.17.1",
     "nodemon": "^2.0.15"
   }
