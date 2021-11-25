@@ -11,7 +11,7 @@ const app = express(); //make the app listen on port
 //   res.sendFile("index.html", { root: __dirname });
 // });
 //handling static HTML and EJS templates
-app.use(express.static("views"));
+app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.get("/", (req, res) => {
   console.log("test ");
